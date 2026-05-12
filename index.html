@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ZiOS 1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="phone">
+        <div class="status-bar">
+            <span>13:02</span>
+            <span>ZiOS v1.0 🔋</span>
+        </div>
+        
+        <div id="lock-screen">
+            <h1 id="clock">00:00</h1>
+            <p>Tuesday, May 12</p>
+            <div class="fingerprint" onclick="unlock()">🧬</div>
+        </div>
+
+        <div id="home-screen" class="hidden">
+            <div class="apps">
+                <div class="app" onclick="alert('Tezliklə!')">⚙️<br>Settings</div>
+                <div class="app" onclick="alert('Zəng aktiv deyil')">📞<br>Phone</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
